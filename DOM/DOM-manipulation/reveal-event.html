@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Master Dom Manipulation</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0px;
+      padding: 0px;
+    }
+
+    h1 {
+      text-align: center;
+      margin: 20px 0px;
+    }
+
+    body {
+      background: hsl(254, 71%, 38%);
+      color: #fff;
+      padding: 0px 30px;
+    }
+
+    button {
+      color: #fff;
+      width: 200px;
+      padding: 10px 20px;
+      font-size: 1.5rem;
+      background: none;
+      border: none;
+      display: block;
+      cursor: pointer;
+    }
+
+    .container {
+      border: 2px solid #fff;
+      border-radius: 30px;
+      width: 100%;
+      height: 500px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 0px 20px;
+    }
+
+    .hidden-content {
+      display: none;
+    }
+
+    .hidden-content.reveal-btn {
+      display: block;
+    }
+  </style>
+</head>
+<body>
+
+  <h1 id="main-heading">Event Listeners</h1>
+
+  <div class="container">
+    <button class="reveal-btn boxes">
+      Reveal More
+    </button>
+
+    <div class="hidden-content boxes">
+      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Adipisci dolor voluptate omnis nihil explicabo mollitia maiores possimus consequatur tempora eveniet deleniti aspernatur reprehenderit itaque similique expedita dolorem, molestiae, quo, ullam provident nam culpa. Atque nostrum sapiente quos at, in nam ea quibusdam alias voluptatem fugiat labore non deleniti amet deserunt similique qui voluptatibus saepe reiciendis ducimus earum delectus, beatae vero harum. Voluptatum ullam sit perferendis eveniet minus. Accusamus odio natus, aspernatur at aperiam aut non autem molestiae et illo consequuntur porro quae eaque ut? Quibusdam, possimus? Itaque sequi suscipit excepturi accusantium, deserunt sit sint, iste debitis molestiae dolorem, corrupti consequuntur ex consequatur incidunt voluptatum quas laboriosam facilis magnam voluptas? Inventore quae eligendi doloribus voluptates molestias aperiam atque sunt. Eum repellendus at nam corrupti est quisquam voluptates sequi, molestiae eveniet delectus sed earum distinctio. Vel sunt temporibus delectus ducimus nesciunt, explicabo sit suscipit nostrum officiis, est earum placeat ipsam atque nihil!
+    </div>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>
