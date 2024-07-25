@@ -1,0 +1,17 @@
+{
+  "dependencies": {
+    "lodash": "^4.17.21",
+    "moment": "^2.30.1"
+  },
+  "name": "practice",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "scribbling randoms",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

@@ -73,13 +73,13 @@
 
  ################################################################################*/
 
-/* body {
+body {
   background: url(images/project-2.jpg) no-repeat center center/ cover;
   height: 100vh;
   position: relative;
-} */
+}
 
-/* #open-btn {
+#open-btn {
   position: absolute;
   top: 70%;
   left: 10%;
@@ -94,14 +94,14 @@
   box-shadow: 0 0 3px black;
   transition: .5s;
   cursor: pointer;
-} */
+}
 
-/* #open-btn:hover {
+#open-btn:hover {
   background: #fff;
   color: #000;
-} */
+}
 
-/* #modal {
+#modal {
   background: #fff;
   position: absolute;
   top: 50%;
@@ -118,18 +118,18 @@
 
   animation-name: animatemodal;
   animation-duration: .4s;
-} */
+}
 
-/* #close-btn {
+#close-btn {
   font-size: 3rem;
-} */
+}
 
-/* #close-btn:hover {
+#close-btn:hover {
   cursor: pointer;
   color: red;
-} */
+}
 
-/* #modal-container {
+#modal-container {
   display: none;
   position: fixed;
   top: 0;
@@ -138,11 +138,11 @@
   height: 100%;
   z-index: 1;
   background: rgba(0, 0, 0, .5);
-} */
+}
 
 /* Modal Animation Section*/
 
-/* @keyframes animatemodal {
+@keyframes animatemodal {
   from {
     top: -300px;
     opacity: 0;
@@ -152,7 +152,7 @@
     top: 50%;
     opacity: 1;
   }
-} */
+}
 
 /* ##############################################
 
